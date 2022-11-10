@@ -1,0 +1,163 @@
+*{
+    background-color:#afadb0;
+    margin: 0;
+}
+#webchat{
+    
+    margin:0;
+    display: flex;
+    
+    
+    
+} 
+/* ----------------------------------------------------*/
+#divthongtin{ 
+    background-color: #0091ff;
+width: 5%;
+height: 100vh;
+
+}
+/* ----------------------------------------------------*/
+#divlistban{
+    background-color: whitesmoke;
+width: 27%;
+height: 100vh;
+
+}
+/* ----------------------------------------------------*/
+#table{
+    position: relative;
+   
+    z-index: 10000;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  blanchedalmond;
+    
+   
+    
+    width: 68%;
+    height: 100vh;
+}
+#title{
+    background-color: white;
+    height: 10vh;
+    text-align: center;
+    border: 1px solid  blanchedalmond;
+ 
+
+
+}
+#chat{
+    height: 7vh;
+    text-align: center;
+    border: 1px solid  blanchedalmond;
+}
+#infoInput{
+
+    position: absolute;
+    height: 30px;
+    width: 70%;
+    bottom: 23px;   
+}
+#spaceChat{
+    overflow-y: scroll;
+    border: 1px solid  blanchedalmond;
+    height: calc(83vh - 30px)
+    
+}
+
+.list-content{
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: lightgray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
+.contentMe{
+cursor: pointer;
+background-color: #4984ff;
+display: flex;
+
+max-width: max-content;
+padding: 5px  10px;
+border-radius: 10px;
+max-width: 45%;
+text-align: justify;
+}
+.contentBotCha{
+display: flex;
+flex-direction: column;
+
+margin: 5px;
+}
+.contentMeCha{
+
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin: 5px;
+}
+.contentBoss{
+cursor: pointer;
+background-color: #3a3b3c;
+display: flex;
+width: max-content;
+padding: 5px  10px;
+border-radius: 10px;
+max-width: 45%;
+text-align: justify;
+margin-bottom: 10px;
+
+}
+.time{
+    align-self: center;
+}
+#btnChat{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#btnChat2{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#btnChat:hover{
+    font-size:35px;
+}
+#valueInputForm i{
+    color: rgb(0, 132, 255);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#valueInputForm {
+    background-color: white;
+    position: relative;
+    height: 15%;
+}
+#valueInputForm button{
+    border: 0;
+    border-radius: 100px;
+}
+#valueInputForm {
+display: flex;
+align-items: center;
+}
+#valueInputForm input{
+    padding: 20px;
+    border-radius: 15px;
+}
+
